@@ -4,8 +4,8 @@
 %define		_status		alpha
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - Collection of helper methods for easy handling of binary data.
-Summary(pl):	%{_pearname} - Kolekcja przydatnych funkcji do obs³ugi danych binarnych.
+Summary:	%{_pearname} - Collection of helper methods for easy handling of binary data
+Summary(pl):	%{_pearname} - Kolekcja przydatnych funkcji do obs³ugi danych binarnych
 Name:		php-pear-%{_pearname}
 Version:	0.2.0
 Release:	1
@@ -26,8 +26,9 @@ subtract, converting functions, endianess functions etc.).
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-Kolekcja prydatnych funkcji do obs³ugi danych binarnych (dodawanie,
-odejmowanie, funkcje konwersji i obs³ugi endianowo¶ci, itp.).
+Kolekcja przydatnych funkcji do obs³ugi danych binarnych (dodawanie,
+odejmowanie, funkcje konwersji i obs³ugi kolejno¶ci bajtów w s³owie
+itp.).
 
 Ta klasa ma w PEAR status: %{_status}.
 
