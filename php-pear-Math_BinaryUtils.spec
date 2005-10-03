@@ -8,13 +8,14 @@ Summary:	%{_pearname} - Collection of helper methods for easy handling of binary
 Summary(pl):	%{_pearname} - Kolekcja przydatnych funkcji do obs³ugi danych binarnych
 Name:		php-pear-%{_pearname}
 Version:	0.3.0
-Release:	1.1
+Release:	1.2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	f0532a5be8c4ff4569bc7c6442a92b83
 URL:		http://pear.php.net/package/Math_BinaryUtils/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+Requires:	php-common >= 3:4.3
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
