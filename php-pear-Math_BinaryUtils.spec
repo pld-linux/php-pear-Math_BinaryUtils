@@ -8,7 +8,7 @@ Summary:	%{_pearname} - Collection of helper methods for easy handling of binary
 Summary(pl):	%{_pearname} - Kolekcja przydatnych funkcji do obs³ugi danych binarnych
 Name:		php-pear-%{_pearname}
 Version:	0.3.0
-Release:	1.2
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
