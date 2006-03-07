@@ -14,6 +14,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	f0532a5be8c4ff4569bc7c6442a92b83
 URL:		http://pear.php.net/package/Math_BinaryUtils/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-common >= 3:4.3
 Requires:	php-pear
