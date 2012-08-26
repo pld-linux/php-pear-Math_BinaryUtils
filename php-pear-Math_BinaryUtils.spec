@@ -1,14 +1,11 @@
-%include	/usr/lib/rpm/macros.php
-%define		_class		Math
-%define		_subclass	BinaryUtils
 %define		_status		alpha
-%define		_pearname	%{_class}_%{_subclass}
-
+%define		_pearname	Math_BinaryUtils
+%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - Collection of helper methods for easy handling of binary data
 Summary(pl.UTF-8):	%{_pearname} - Kolekcja przydatnych funkcji do obsługi danych binarnych
 Name:		php-pear-%{_pearname}
 Version:	0.3.0
-Release:	3
+Release:	4
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -17,7 +14,7 @@ URL:		http://pear.php.net/package/Math_BinaryUtils/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
-Requires:	php-common >= 3:4.3
+Requires:	php(core) >= 4.3
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -50,4 +47,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc install.log
 %{php_pear_dir}/.registry/*.reg
-%{php_pear_dir}/%{_class}/*.php
+%{php_pear_dir}/Math/*.php
