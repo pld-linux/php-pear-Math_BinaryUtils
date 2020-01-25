@@ -1,6 +1,5 @@
 %define		_status		alpha
 %define		_pearname	Math_BinaryUtils
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - Collection of helper methods for easy handling of binary data
 Summary(pl.UTF-8):	%{_pearname} - Kolekcja przydatnych funkcji do obsługi danych binarnych
 Name:		php-pear-%{_pearname}
